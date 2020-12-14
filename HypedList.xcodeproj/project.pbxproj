@@ -8,18 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		9269F0372587A796006849DB /* HypedListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269F0362587A796006849DB /* HypedListApp.swift */; };
-		9269F0392587A796006849DB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269F0382587A796006849DB /* ContentView.swift */; };
+		9269F0392587A796006849DB /* HypedListTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269F0382587A796006849DB /* HypedListTabView.swift */; };
 		9269F03B2587A797006849DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9269F03A2587A797006849DB /* Assets.xcassets */; };
 		9269F03E2587A797006849DB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9269F03D2587A797006849DB /* Preview Assets.xcassets */; };
+		9269F0482587A9C0006849DB /* UpcomingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269F0472587A9C0006849DB /* UpcomingView.swift */; };
+		9269F04B2587AFAD006849DB /* CreateHypedEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269F04A2587AFAD006849DB /* CreateHypedEventView.swift */; };
+		9269F04E2587B066006849DB /* HypedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269F04D2587B066006849DB /* HypedEvent.swift */; };
+		9269F0512587B8BC006849DB /* FormLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269F0502587B8BC006849DB /* FormLabelView.swift */; };
+		9269F0542587C017006849DB /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269F0532587C017006849DB /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9269F0332587A796006849DB /* HypedList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypedList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9269F0362587A796006849DB /* HypedListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListApp.swift; sourceTree = "<group>"; };
-		9269F0382587A796006849DB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9269F0382587A796006849DB /* HypedListTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListTabView.swift; sourceTree = "<group>"; };
 		9269F03A2587A797006849DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9269F03D2587A797006849DB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9269F03F2587A797006849DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9269F0472587A9C0006849DB /* UpcomingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingView.swift; sourceTree = "<group>"; };
+		9269F04A2587AFAD006849DB /* CreateHypedEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHypedEventView.swift; sourceTree = "<group>"; };
+		9269F04D2587B066006849DB /* HypedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEvent.swift; sourceTree = "<group>"; };
+		9269F0502587B8BC006849DB /* FormLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormLabelView.swift; sourceTree = "<group>"; };
+		9269F0532587C017006849DB /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				9269F0362587A796006849DB /* HypedListApp.swift */,
-				9269F0382587A796006849DB /* ContentView.swift */,
+				9269F0382587A796006849DB /* HypedListTabView.swift */,
 				9269F03A2587A797006849DB /* Assets.xcassets */,
 				9269F03F2587A797006849DB /* Info.plist */,
 				9269F03C2587A797006849DB /* Preview Content */,
+				9269F0472587A9C0006849DB /* UpcomingView.swift */,
+				9269F04A2587AFAD006849DB /* CreateHypedEventView.swift */,
+				9269F04D2587B066006849DB /* HypedEvent.swift */,
+				9269F0502587B8BC006849DB /* FormLabelView.swift */,
+				9269F0532587C017006849DB /* ImagePicker.swift */,
 			);
 			path = HypedList;
 			sourceTree = "<group>";
@@ -138,8 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9269F0392587A796006849DB /* ContentView.swift in Sources */,
+				9269F04B2587AFAD006849DB /* CreateHypedEventView.swift in Sources */,
+				9269F0512587B8BC006849DB /* FormLabelView.swift in Sources */,
+				9269F04E2587B066006849DB /* HypedEvent.swift in Sources */,
+				9269F0542587C017006849DB /* ImagePicker.swift in Sources */,
+				9269F0392587A796006849DB /* HypedListTabView.swift in Sources */,
 				9269F0372587A796006849DB /* HypedListApp.swift in Sources */,
+				9269F0482587A9C0006849DB /* UpcomingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
