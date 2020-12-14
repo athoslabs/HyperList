@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9268B50B258808AF008B32A9 /* HypedEventTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268B50A258808AF008B32A9 /* HypedEventTileView.swift */; };
 		9269F0372587A796006849DB /* HypedListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269F0362587A796006849DB /* HypedListApp.swift */; };
 		9269F0392587A796006849DB /* HypedListTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9269F0382587A796006849DB /* HypedListTabView.swift */; };
 		9269F03B2587A797006849DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9269F03A2587A797006849DB /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9268B50A258808AF008B32A9 /* HypedEventTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEventTileView.swift; sourceTree = "<group>"; };
 		9269F0332587A796006849DB /* HypedList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypedList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9269F0362587A796006849DB /* HypedListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListApp.swift; sourceTree = "<group>"; };
 		9269F0382587A796006849DB /* HypedListTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListTabView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				9269F04D2587B066006849DB /* HypedEvent.swift */,
 				9269F0502587B8BC006849DB /* FormLabelView.swift */,
 				9269F0532587C017006849DB /* ImagePicker.swift */,
+				9268B50A258808AF008B32A9 /* HypedEventTileView.swift */,
 			);
 			path = HypedList;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9268B50B258808AF008B32A9 /* HypedEventTileView.swift in Sources */,
 				9269F04B2587AFAD006849DB /* CreateHypedEventView.swift in Sources */,
 				9269F0512587B8BC006849DB /* FormLabelView.swift in Sources */,
 				9269F04E2587B066006849DB /* HypedEvent.swift in Sources */,

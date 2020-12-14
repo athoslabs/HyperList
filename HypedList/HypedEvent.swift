@@ -47,7 +47,7 @@ var testHypedEvent1: HypedEvent {
 var testHypedEvent2: HypedEvent {
     let hypedEvent = HypedEvent()
     
-    hypedEvent.title = "Family trip to Jackson"
+    hypedEvent.title = "Family and friends trip trip to Jackson and the Arizona"
     hypedEvent.color = .blue
     hypedEvent.date = Date()
     
